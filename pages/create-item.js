@@ -82,6 +82,7 @@ export default function CreateItem() {
         <input 
           placeholder="Asset Name"
           className="mt-8 border rounded p-4"
+          color='blue'
           onChange={e => updateFormInput({ ...formInput, name: e.target.value })}
         />
         <textarea
